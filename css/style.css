@@ -62,4 +62,34 @@ main > section:nth-child(3){
   padding: 0 25%;
   height: 50px;
 }
+    /* debug */
+.row-up{
+  height: 100px;
+  background-color: lightblue;
+}
+    /* debug */
+div[class^="crm"]{
+  height: 50px;
+  background: lightgreen;
+}
+
+.left-crm{
+  float: left;
+}
+
+.right-crm{
+  float: right;
+}
+
+ul{
+  display: inline-block;
+}
+
 /* debug */
+div[class^="colonna"]{
+  height: 150px;
+  width: calc(100% / 3 - 10%);
+  background: red;
+  float: left;
+  border: 1px solid black;
+}
