@@ -36,9 +36,13 @@ nav {
 }
       /* main */
 main > section:first-child{
-  height: 600px;
-  background-color: lightpink;
-}
+  
+  height: 650px;
+  background-image: url(../img/jumbotron.png);
+  background-repeat: no-repeat;
+  background-size: 100% 600px;
+  background-position: 0px 122px;
+  }
 
 main > section:nth-child(3){
   background: lightblue;
@@ -47,8 +51,7 @@ main > section:nth-child(3){
 
 .jumbotron{
   width: 50%;
-  background-color: lightgrey;
-  border: 1px solid black;
+
   padding-top: 200px;
 }
 
