@@ -1,5 +1,65 @@
+    /* regole generali */
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.pad{
+  padding: 0 10%;
+}
+      /* header */
+
+header{
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+
+nav {
+  height: 70px;
+}
+
+#form{
+  background: grey;
+  border-bottom: 2px solid black;
+}
+
+#option{
+  background: lightgrey;
+}
+      /* main */
+main > section:first-child{
+  height: 600px;
+  background-color: lightpink;
+}
+
+main > section:nth-child(3){
+  background: lightblue;
+  position: relative;
+}
+
+.jumbotron{
+  width: 50%;
+  background-color: lightgrey;
+  border: 1px solid black;
+  padding-top: 200px;
+}
+
+.banner{
+  height: 70px;
+  background: lightgreen;
+}
+      /* debug */
+.head-section{
+  text-align: center;
+  padding: 0 25%;
+  height: 50px;
+}
+/* debug */
