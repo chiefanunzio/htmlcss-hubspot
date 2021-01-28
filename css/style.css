@@ -14,29 +14,81 @@
 .pad{
   padding: 0 10%;
 }
+
+button{
+  border-radius: 10px;
+  background-color: #fe775a;
+  padding: 10px;
+  color: white;
+}
       /* header */
 
 header{
   position: fixed;
+  height: 140px;
+  top:0;
+  left:0;
   width: 100%;
   z-index: 999;
 }
 
+a{
+  text-decoration: none;
+  color: black;
+}
+
 nav {
   height: 70px;
+  line-height: 70px;
+}
+   /* first nav */
+nav > div{
+  display:inline-block;
 }
 
 #form{
-  background: grey;
+  background:#f4f9fd;
   border-bottom: 2px solid black;
 }
 
-#option{
-  background: lightgrey;
+.left-form > span, a{
+  margin-left: 10px;
 }
+
+.right-form{
+  float: right;
+}
+
+.right-form button{
+  margin:0 10px;
+}
+
+.fa-search{
+  color: #00a4bd;
+}
+
+#login-button{
+  background: transparent;
+  border-color: #fe775a;
+  color: #fe775a;
+}
+
+select{
+  border: none;
+  background: none;
+}
+   /* down nav */
+#option{
+  background-color: white;
+}
+
+.select-nav{
+  float: right;
+}
+
+
       /* main */
 main > section:first-child{
-  
   height: 650px;
   background-image: url(../img/jumbotron.png);
   background-repeat: no-repeat;
