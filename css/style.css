@@ -21,6 +21,23 @@ button{
   padding: 10px;
   color: white;
 }
+
+.svg-img{
+  height: 100px;
+  margin-top: 10px;
+}
+
+p{
+  line-height: 25px;
+  margin: 30px 0 40;
+}
+
+.popolar{
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px 0;
+}
       /* header */
 
 header{
@@ -117,7 +134,6 @@ main > section:first-child{
   margin-bottom: 20px;
 }
 
-
 .banner{
   height: 70px;
   border-top: 5px solid #33475b;
@@ -133,7 +149,6 @@ main > section:nth-child(3){
 .head-section{
   text-align: center;
   padding: 30px 25% 0;
-  height: 100%;
 }
 
 .head-section > p{
@@ -153,20 +168,19 @@ main > section:nth-child(3){
 
 .left-crm, .right-crm{
   padding: 30px 0;
+  float: left;
 }
 
 .right-crm{
+  width: 65%;
   display:inline-block;
-  float: right;
 }
 .left-crm{
-  text-align: center;
   display: inline-block;
   width: 200px;
 }
 
 .left-crm > img{
-  height: 100px;
   margin-bottom: 20px;
 }
 
@@ -175,7 +189,16 @@ main > section:nth-child(3){
   margin-right: 10px;
 }
 
-li > i{
+.right-crm > h3, p, span{
+  margin-bottom: 20px;
+}
+
+.right-crm > h3{
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.fa-check-circle{
   color: orange;
   margin-right: 10px
 }
@@ -184,15 +207,24 @@ li > i{
   display: inline-block;
   width: 400px;
   font-size: 20px;
+  margin-left: 40px;
 }
 
+    /* down row 3 colonna */
 
 
-/* debug */
 div[class^="colonna"]{
-  height: 150px;
-  width: calc(100% / 3 - 10%);
-  background: red;
+  text-align: center;
+  padding: 0 40px;
+  width: calc(100% / 3 - 34px);
+  background: white;
   float: left;
-  border: 1px solid black;
+}
+
+{
+  margin-bottom: 100px;
+}
+
+.colonna-c{
+  margin: 0 50px;
 }
