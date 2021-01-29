@@ -195,7 +195,7 @@ main > section:nth-child(3){
   margin-bottom: 20px;
 }
 
-.right-cmr ul, .right-cmr  li{
+.lista-in-line{
   display: inline-block;
   margin-right: 10px;
 }
@@ -248,4 +248,21 @@ div[class^="colonna"] button{
 
 .colonna-c{
   margin: 0 50px;
+}
+
+    /* sezione info */
+
+main section:nth-child(4){
+  background-image: linear-gradient(45deg
+    ,#00a4bd,#00bda5);
+    padding-top: 30px;
+}
+
+.info * {
+  color: white;
+  text-align: center;
+}
+
+.info > p{
+  margin-top: 20px;
 }
