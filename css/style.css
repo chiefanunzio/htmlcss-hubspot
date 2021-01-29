@@ -58,6 +58,7 @@ nav > div{
 .right-form button{
   margin:0 10px;
 }
+0
 
 .fa-search{
   color: #00a4bd;
@@ -123,34 +124,69 @@ main > section:first-child{
   border-bottom: 5px solid #33475b;
   background: lightgreen;
 }
-      /* debug */
-.head-section{
-  text-align: center;
-  padding: 0 25%;
-  height: 50px;
-}
-    /* debug */
-.row-up{
-  height: 100px;
-  background-color: lightblue;
-}
-    /* debug */
-div[class^="crm"]{
-  height: 50px;
-  background: lightgreen;
+
+main > section:nth-child(3){
+  background: #ddeaef;
+  position: relative;
 }
 
-.left-crm{
-  float: left;
+.head-section{
+  text-align: center;
+  padding: 30px 25% 0;
+  height: 100%;
+}
+
+.head-section > p{
+  margin-top: 20px;
+  line-height: 30px;
+}
+
+#cube{
+  height: 200px;
+}
+  /* orizzontal row */
+.row-up{
+  width: 80%;
+  margin: 30px auto;
+  background-color: white;
+}
+
+.left-crm, .right-crm{
+  padding: 30px 0;
 }
 
 .right-crm{
+  display:inline-block;
   float: right;
 }
-
-ul{
+.left-crm{
+  text-align: center;
   display: inline-block;
+  width: 200px;
 }
+
+.left-crm > img{
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.right-cmr > ul, li{
+  display: inline-block;
+  margin-right: 10px;
+}
+
+li > i{
+  color: orange;
+  margin-right: 10px
+}
+
+#hd-hr{
+  display: inline-block;
+  width: 400px;
+  font-size: 20px;
+}
+
+
 
 /* debug */
 div[class^="colonna"]{
@@ -159,9 +195,4 @@ div[class^="colonna"]{
   background: red;
   float: left;
   border: 1px solid black;
-}
-
-main > section:nth-child(3){
-  background: lightblue;
-  position: relative;
 }
