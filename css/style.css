@@ -266,3 +266,23 @@ main section:nth-child(4){
 .info > p{
   margin-top: 20px;
 }
+
+.table-square{
+  width: calc(100% / 4);
+  border: 1px solid white;
+  text-align: center;
+  color: white;
+  padding: 10px 30px;
+  float: left;
+}
+
+.table-square > img{
+  height: 50px;
+}
+
+.table-square img + span{
+  display: block;
+  font-size: 30px;
+  font-weight: bolder;
+  margin: 15px 0;
+}
