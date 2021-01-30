@@ -269,7 +269,6 @@ main section:nth-child(4){
 
 .table-square{
   width: calc(100% / 4);
-  border: 1px solid white;
   text-align: center;
   color: white;
   padding: 10px 30px;
@@ -285,4 +284,12 @@ main section:nth-child(4){
   font-size: 30px;
   font-weight: bolder;
   margin: 15px 0;
+}
+
+.bord-r{
+  border-right: 1px solid white;
+}
+
+.bord-t{
+  border-top:1px solid white;
 }
