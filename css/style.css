@@ -257,6 +257,7 @@ main section:nth-child(4){
   background-image: linear-gradient(45deg
     ,#00a4bd,#00bda5);
     padding-top: 30px;
+    padding-bottom: 100px;
 }
 
 .info * {
@@ -300,4 +301,28 @@ main section:nth-child(4){
 
 .bord-t{
   border-top:1px solid white;
+}
+
+main section:last-child{
+  margin: 30px 0;
+
+}
+
+.sponsor{
+  float: left;
+}
+
+.number{
+  width: 200px;
+}
+
+.number > span{
+  font-size: 50px;
+  font-weight: bold;
+}
+
+
+
+strong{
+  margin-left:5px;
 }
