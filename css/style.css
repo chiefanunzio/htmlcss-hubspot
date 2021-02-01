@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+header, main {
+  font-family: sans-serif;
+}
+
 .clearfix::after{
   content: '';
   display: table;
@@ -64,6 +68,9 @@ h3{
 
 a{
   text-decoration: none;
+}
+
+.black{
   color: black;
 }
 
@@ -88,7 +95,6 @@ nav > div{
 .right-form button{
   margin:0 10px;
 }
-0
 
 .fa-search{
   color: #00a4bd;
@@ -127,7 +133,7 @@ main > section:first-child{
   background-repeat: no-repeat;
   background-size: 100% 600px;
   background-position: 0px 122px;
-  }
+}
 
 .jumbotron{
   width: 50%;
@@ -142,7 +148,7 @@ main > section:first-child{
     margin: 20px 0 30px;
 }
 
-.jumbotron a > button{
+.jumbotron  > button{
   padding:20px 30px;
   margin-bottom: 20px;
 }
@@ -158,7 +164,6 @@ main > section:nth-child(3){
   background: #ddeaef;
   position: relative;
 }
-
 
 
 .head-section{
@@ -305,15 +310,11 @@ main section:nth-child(4){
 
 main section:last-child{
   margin: 30px 0;
-
-}
-
-.sponsor{
-  float: left;
 }
 
 .number{
   width: 200px;
+  float: left;
 }
 
 .number > span{
@@ -321,8 +322,95 @@ main section:last-child{
   font-weight: bold;
 }
 
-
-
 strong{
   margin-left:5px;
+}
+
+.logo > img{
+  width: 130px;
+  margin: 10px 10px;
+  float: left;
+
+}
+
+.logo{
+  width: 600px;
+  float: right;
+}
+
+.growing{
+  width: 500px;
+  margin:30px 0 20px;
+  float: left;
+}
+
+.woman{
+  float: right;
+  width: 250px;
+  margin-right:150px;
+}
+.sponsor .growing > button{
+  display: block;
+  margin-bottom: 20px;
+}
+.growing > h2{
+  font-size: 40px;
+}
+
+.growing > span{
+  font-size: 10px;
+}
+
+footer{
+  background-color: #32495b;
+  color: white;
+}
+
+.row-footer{
+  padding-top: 30px;
+}
+.link-footer{
+  float: left;
+  color: white;
+  width: calc(100% / 4 - 20px)
+}
+
+.link-footer a {
+  font-size: 15px;
+  color: white;
+  display: block;
+  margin-top: 10px;
+}
+
+.link-footer span{
+  font-size: 15px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+#support{
+  margin:20px 0;
+  background-color: white;
+  color:#32495b;
+}
+
+.social a{
+  float: left;
+}
+
+.social i{
+  margin-right: 20px;
+}
+
+.lingue{
+  width: 80%;
+  margin:auto;
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: 2px solid white;
+}
+
+.lingue span{
+  margin-right: 20px;
+  font-size: 15px;
 }
