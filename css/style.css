@@ -72,12 +72,9 @@ h3{
 }
 
 a{
+  color: black;
   font-size: 15px;
   text-decoration: none;
-}
-
-.black{
-  color: black;
 }
 
 nav {
