@@ -59,12 +59,10 @@ li{
       /* header */
 
 header{
-  position: fixed;
   height: 140px;
-  top:0;
-  left:0;
   width: 100%;
   z-index: 999;
+  display: unset;
 }
 
 h3{
@@ -155,7 +153,12 @@ nav {
 
    /* down nav */
 #option{
+  display: block;
   background-color: white;
+  position: sticky;
+  top: 0;
+  position: -webkit-sticky;
+  z-index: 999;
 }
 
 #logo-hub{
@@ -174,8 +177,8 @@ main > section:first-child{
   height: 650px;
   background-image: url(../img/jumbotron.png);
   background-repeat: no-repeat;
-  background-size: 100% 600px;
-  background-position: 0px 122px;
+  background-size: 100% 740px;
+
 }
 
 .jumbotron{
