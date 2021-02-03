@@ -61,7 +61,7 @@ li{
 header{
   height: 140px;
   width: 100%;
-  z-index: 999;
+  z-index: 9;
   display: unset;
 }
 
@@ -81,7 +81,7 @@ nav {
   line-height: 70px;
 }
    /* first nav */
-#form{
+#top-nav{
   background:#f4f9fd;
   border-bottom: 2px solid black;
 }
@@ -120,7 +120,7 @@ nav {
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   width: 100px;
   height: auto;
-  z-index: 9999;
+  z-index: 999;
 }
 
 .triangle{
@@ -153,13 +153,13 @@ nav {
 
 
    /* down nav */
-#option{
+#bottom-nav{
   display: block;
   background-color: white;
   position: sticky;
   top: 0;
   position: -webkit-sticky;
-  z-index: 999;
+  z-index: 99;
 }
 
 #logo-hub{
@@ -170,8 +170,9 @@ nav {
   float: right;
 }
 
-.select-nav a{
+.select-nav li{
   margin-right: 10px;
+  display: inline-block;
 }
       /* main */
 main > section:first-child{
@@ -179,7 +180,6 @@ main > section:first-child{
   background-image: url(../img/jumbotron.png);
   background-repeat: no-repeat;
   background-size: 100% 740px;
-
 }
 
 .jumbotron{
@@ -240,7 +240,7 @@ main > section:nth-child(3){
 }
 .left-crm{
   margin-right: 50px;
-  width: 200px;
+  width:  25%;
 }
 
 .left-crm > img{
@@ -277,7 +277,7 @@ main > section:nth-child(3){
     /* down row 3 colonna */
 
 
-div[class^="colonna"]{
+.colonna{
   text-align: center;
   padding: 0 40px;
   margin-bottom: 30px;
@@ -287,20 +287,20 @@ div[class^="colonna"]{
   float: left;
 }
 
-div[class^="colonna"] p{
+.colonna p{
   margin-bottom: 50px;
 }
 
-div[class^="colonna"] li{
+.colonna li{
   text-align: left;
 }
 
-div[class^="colonna"] .button{
+.colonna .button{
   margin: 40px 0;
   padding: 20px 40px;
 }
 
-.colonna-c{
+.colonna.c{
   margin: 0 50px;
 }
 
